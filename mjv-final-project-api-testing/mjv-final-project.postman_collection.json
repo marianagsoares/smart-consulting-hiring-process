@@ -2,9 +2,9 @@
 	"info": {
 		"_postman_id": "5ba98403-4121-42bc-a435-25b23b607d3b",
 		"name": "mjv-final-project",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "31016043",
-		"_collection_link": "https://testes-de-api.postman.co/workspace/85baba9c-9a6a-46f9-8098-7487d27e1503/collection/31016043-5ba98403-4121-42bc-a435-25b23b607d3b?action=share&source=collection_link&creator=31016043"
+		"_collection_link": "https://testes-de-api.postman.co/workspace/mjv-final-project~85baba9c-9a6a-46f9-8098-7487d27e1503/collection/31016043-5ba98403-4121-42bc-a435-25b23b607d3b?action=share&source=collection_link&creator=31016043"
 	},
 	"item": [
 		{
@@ -121,15 +121,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/users",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users"
-									]
-								}
+								"url": "{{baseUrl}}/users"
 							},
 							"response": []
 						}
@@ -197,15 +189,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/authenticate",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"authenticate"
-									]
-								}
+								"url": "{{baseUrl}}/authenticate"
 							},
 							"response": []
 						},
@@ -265,15 +249,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/forgot_password",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"forgot_password"
-									]
-								}
+								"url": "{{baseUrl}}/forgot_password"
 							},
 							"response": []
 						},
@@ -331,15 +307,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/reset_password",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"reset_password"
-									]
-								}
+								"url": "{{baseUrl}}/reset_password"
 							},
 							"response": []
 						}
@@ -482,15 +450,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								}
@@ -554,15 +514,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								},
@@ -621,15 +573,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								},
@@ -687,15 +631,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								},
@@ -753,15 +689,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								},
@@ -819,15 +747,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								},
@@ -885,15 +805,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								},
@@ -951,15 +863,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/authenticate",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"authenticate"
-											]
-										}
+										"url": "{{baseUrl}}/authenticate"
 									},
 									"response": []
 								}
@@ -1019,15 +923,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/forgot_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"forgot_password"
-											]
-										}
+										"url": "{{baseUrl}}/forgot_password"
 									},
 									"response": []
 								},
@@ -1082,15 +978,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/forgot_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"forgot_password"
-											]
-										}
+										"url": "{{baseUrl}}/forgot_password"
 									},
 									"response": []
 								},
@@ -1145,15 +1033,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/forgot_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"forgot_password"
-											]
-										}
+										"url": "{{baseUrl}}/forgot_password"
 									},
 									"response": []
 								},
@@ -1208,15 +1088,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/forgot_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"forgot_password"
-											]
-										}
+										"url": "{{baseUrl}}/forgot_password"
 									},
 									"response": []
 								}
@@ -1276,15 +1148,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1339,15 +1203,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1402,15 +1258,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1465,15 +1313,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1528,15 +1368,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1591,15 +1423,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1654,15 +1478,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1717,15 +1533,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1780,15 +1588,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1843,15 +1643,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1906,15 +1698,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -1969,15 +1753,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -2032,15 +1808,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -2095,15 +1863,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								},
@@ -2158,15 +1918,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/reset_password",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"reset_password"
-											]
-										}
+										"url": "{{baseUrl}}/reset_password"
 									},
 									"response": []
 								}
@@ -2180,26 +1932,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{exceptionsUserId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{exceptionsUserId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{exceptionsUserId}}"
 									},
 									"response": []
 								}
@@ -2271,26 +2010,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "DELETE",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/users/{{userId}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users",
-										"{{userId}}"
-									]
-								}
+								"url": "{{baseUrl}}/users/{{userId}}"
 							},
 							"response": []
 						}
@@ -2446,15 +2172,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/users",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users"
-									]
-								}
+								"url": "{{baseUrl}}/users"
 							},
 							"response": []
 						},
@@ -2518,25 +2236,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/users",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users"
-									]
-								}
+								"url": "{{baseUrl}}/users"
 							},
 							"response": []
 						},
@@ -2589,26 +2295,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/users/{{userId}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users",
-										"{{userId}}"
-									]
-								}
+								"url": "{{baseUrl}}/users/{{userId}}"
 							},
 							"response": []
 						},
@@ -2709,13 +2402,9 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "PUT",
 								"header": [],
@@ -2728,16 +2417,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/users/{{userId}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users",
-										"{{userId}}"
-									]
-								}
+								"url": "{{baseUrl}}/users/{{userId}}"
 							},
 							"response": []
 						}
@@ -2761,13 +2441,7 @@
 								"packages": {},
 								"requests": {},
 								"exec": [
-									"pm.test(\"Content-Type should be application/json\", function () {\r",
-									"    pm.response.to.have.header(\"Content-Type\", \"application/json; charset=utf-8\");\r",
-									"});\r",
-									"\r",
-									"pm.test(\"Response time should be less than 3000ms\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(3000);\r",
-									"});"
+									""
 								]
 							}
 						}
@@ -2883,15 +2557,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								}
@@ -2945,15 +2611,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3002,15 +2660,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3059,15 +2709,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3116,15 +2758,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3173,15 +2807,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3230,15 +2856,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3287,15 +2905,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3344,15 +2954,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3401,15 +3003,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3458,15 +3052,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3515,15 +3101,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3572,15 +3150,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3629,15 +3199,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3686,15 +3248,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3743,15 +3297,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3800,15 +3346,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3857,15 +3395,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3914,15 +3444,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -3971,15 +3493,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -4028,15 +3542,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -4078,15 +3584,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								}
@@ -4160,15 +3658,7 @@
 									"request": {
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -4211,25 +3701,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{invalidAcessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{invalidAcessToken}}"
+											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								},
@@ -4272,25 +3750,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{invalidAcessTokenFormat}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{invalidAcessTokenFormat}}"
+											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users"
-											]
-										}
+										"url": "{{baseUrl}}/users"
 									},
 									"response": []
 								}
@@ -4370,16 +3836,7 @@
 									"request": {
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4428,26 +3885,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{invalidAcessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{invalidAcessToken}}"
+											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4496,26 +3940,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{invalidAcessTokenFormat}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{invalidAcessTokenFormat}}"
+											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4556,26 +3987,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{invalidUserIdFormat}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{invalidUserIdFormat}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{invalidUserIdFormat}}"
 									},
 									"response": []
 								},
@@ -4620,26 +4038,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{invalidUserId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{invalidUserId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{invalidUserId}}"
 									},
 									"response": []
 								}
@@ -4709,13 +4114,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -4728,16 +4129,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4778,13 +4170,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -4797,16 +4185,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4847,13 +4226,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -4866,16 +4241,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4916,13 +4282,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -4935,16 +4297,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -4985,13 +4338,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5004,16 +4353,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5054,13 +4394,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5073,16 +4409,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5123,13 +4450,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5142,16 +4465,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5192,13 +4506,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5211,16 +4521,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5261,13 +4562,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5280,16 +4577,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5330,13 +4618,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5349,16 +4633,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5399,13 +4674,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5418,16 +4689,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5468,13 +4730,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5487,16 +4745,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{exceptionsUserId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{exceptionsUserId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{exceptionsUserId}}"
 									},
 									"response": []
 								},
@@ -5537,13 +4786,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5556,16 +4801,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5606,13 +4842,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5625,16 +4857,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5675,13 +4898,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5694,16 +4913,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5744,13 +4954,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5763,16 +4969,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5813,13 +5010,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5832,16 +5025,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5882,13 +5066,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5901,16 +5081,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -5951,13 +5122,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -5970,16 +5137,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -6020,13 +5178,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -6039,16 +5193,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -6085,13 +5230,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -6104,16 +5245,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -6154,13 +5286,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -6173,16 +5301,7 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{invalidUserIdFormat}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{invalidUserIdFormat}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{invalidUserIdFormat}}"
 									},
 									"response": []
 								},
@@ -6227,13 +5346,9 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "PUT",
 										"header": [],
@@ -6246,16 +5361,190 @@
 												}
 											}
 										},
-										"url": {
-											"raw": "{{baseUrl}}/users/{{invalidUserId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{invalidUserId}}"
-											]
+										"url": "{{baseUrl}}/users/{{invalidUserId}}"
+									},
+									"response": []
+								},
+								{
+									"name": "update-user-no-token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"const responseJson = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Error message should be returned\", function () {\r",
+													"    pm.expect(responseJson.message).to.eql(pm.globals.get(\"ERROR_TOKEN_REQUIRED\"));\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response should has expected property\", function () {\r",
+													"    pm.expect(responseJson).to.have.property(\"message\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response should have expected property\", function () {\r",
+													"    pm.expect(responseJson.message).to.be.a(\"string\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {},
+												"requests": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {},
+												"requests": {}
+											}
 										}
+									],
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"fullName\": \"{{updatedFullName}}\",\r\n  \"birthday\": \"{{updatedBirthday}}\",\r\n  \"email\": \"{{updatedUserEmail}}\",\r\n  \"password\": \"{{updatedPassword}}\",\r\n  \"role\": \"{{updatedRole}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/users/{{userId}}"
+									},
+									"response": []
+								},
+								{
+									"name": "update-user-invalid-token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"const responseJson = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Error message should be returned\", function () {\r",
+													"    pm.expect(responseJson.message).to.eql(pm.globals.get(\"ERROR_TOKEN_INVALID\"));\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response should has expected property\", function () {\r",
+													"    pm.expect(responseJson).to.have.property(\"message\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response should have expected property\", function () {\r",
+													"    pm.expect(responseJson.message).to.be.a(\"string\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Status should be 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {},
+												"requests": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {},
+												"requests": {}
+											}
+										}
+									],
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{invalidAcessToken}}"
+											}
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"fullName\": \"{{updatedFullName}}\",\r\n  \"birthday\": \"{{updatedBirthday}}\",\r\n  \"email\": \"{{updatedUserEmail}}\",\r\n  \"password\": \"{{updatedPassword}}\",\r\n  \"role\": \"{{updatedRole}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/users/{{userId}}"
+									},
+									"response": []
+								},
+								{
+									"name": "update-user-invalid-token-format",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"const responseJson = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Error message should be returned\", function () {\r",
+													"    pm.expect(responseJson.message).to.eql(pm.globals.get(\"ERROR_TOKEN_INVALID\"));\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response should has expected property\", function () {\r",
+													"    pm.expect(responseJson).to.have.property(\"message\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response should have expected property\", function () {\r",
+													"    pm.expect(responseJson.message).to.be.a(\"string\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Status should be 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {},
+												"requests": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {},
+												"requests": {}
+											}
+										}
+									],
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{invalidAcessTokenFormat}}"
+											}
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"fullName\": \"{{updatedFullName}}\",\r\n  \"birthday\": \"{{updatedBirthday}}\",\r\n  \"email\": \"{{updatedUserEmail}}\",\r\n  \"password\": \"{{updatedPassword}}\",\r\n  \"role\": \"{{updatedRole}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								}
@@ -6302,16 +5591,7 @@
 									"request": {
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -6356,26 +5636,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{invalidAcessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{invalidAcessToken}}"
+											}
 										},
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -6420,26 +5687,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{invalidAcessTokenFormat}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{invalidAcessTokenFormat}}"
+											}
 										},
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{userId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{userId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{userId}}"
 									},
 									"response": []
 								},
@@ -6480,26 +5734,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{invalidUserIdFormat}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{invalidUserIdFormat}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{invalidUserIdFormat}}"
 									},
 									"response": []
 								},
@@ -6548,26 +5789,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{invalidUserId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{invalidUserId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{invalidUserId}}"
 									},
 									"response": []
 								}
@@ -6581,26 +5809,13 @@
 									"request": {
 										"auth": {
 											"type": "bearer",
-											"bearer": [
-												{
-													"key": "token",
-													"value": "{{accessToken}}",
-													"type": "string"
-												}
-											]
+											"bearer": {
+												"token": "{{accessToken}}"
+											}
 										},
 										"method": "DELETE",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/users/{{exceptionsUserId}}",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"users",
-												"{{exceptionsUserId}}"
-											]
-										}
+										"url": "{{baseUrl}}/users/{{exceptionsUserId}}"
 									},
 									"response": []
 								}
@@ -6626,13 +5841,7 @@
 								"packages": {},
 								"requests": {},
 								"exec": [
-									"pm.test(\"Content-Type should be application/json\", function () {\r",
-									"    pm.response.to.have.header(\"Content-Type\", \"application/json; charset=utf-8\");\r",
-									"});\r",
-									"\r",
-									"pm.test(\"Response time should be less than 3000ms\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(3000);\r",
-									"});"
+									""
 								]
 							}
 						}
@@ -6678,30 +5887,47 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "DELETE",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/users/{{userId}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users",
-										"{{userId}}"
-									]
-								}
+								"url": "{{baseUrl}}/users/{{userId}}"
 							},
 							"response": []
 						}
 					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {},
+						"exec": [
+							"pm.test(\"Content-Type should be application/json\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\", \"application/json; charset=utf-8\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time should be less than 3000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(3000);\r",
+							"});"
+						]
+					}
 				}
 			]
 		},
@@ -6822,15 +6048,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/users",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users"
-									]
-								}
+								"url": "{{baseUrl}}/users"
 							},
 							"response": []
 						}
@@ -6906,13 +6124,9 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "POST",
 								"header": [],
@@ -6925,15 +6139,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/products",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"products"
-									]
-								}
+								"url": "{{baseUrl}}/products"
 							},
 							"response": []
 						},
@@ -7000,25 +6206,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/products",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"products"
-									]
-								}
+								"url": "{{baseUrl}}/products"
 							},
 							"response": []
 						},
@@ -7082,26 +6276,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/products/{{productCode}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"products",
-										"{{productCode}}"
-									]
-								}
+								"url": "{{baseUrl}}/products/{{productCode}}"
 							},
 							"response": []
 						},
@@ -7172,13 +6353,9 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "PUT",
 								"header": [],
@@ -7191,16 +6368,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{baseUrl}}/products/{{productCode}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"products",
-										"{{productCode}}"
-									]
-								}
+								"url": "{{baseUrl}}/products/{{productCode}}"
 							},
 							"response": []
 						},
@@ -7237,26 +6405,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "DELETE",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/products/{{productCode}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"products",
-										"{{productCode}}"
-									]
-								}
+								"url": "{{baseUrl}}/products/{{productCode}}"
 							},
 							"response": []
 						}
@@ -7302,26 +6457,13 @@
 							"request": {
 								"auth": {
 									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{accessToken}}",
-											"type": "string"
-										}
-									]
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
 								},
 								"method": "DELETE",
 								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/users/{{userId}}",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"users",
-										"{{userId}}"
-									]
-								}
+								"url": "{{baseUrl}}/users/{{userId}}"
 							},
 							"response": []
 						}
