@@ -1,10 +1,10 @@
 README v1:
 
-# 🚀 Smart Consulting - Hiring Process
+# 🚀 Natixis - Hiring Process
 
 ## 📋 About the Project
 
-This repository contains automated tests developed for the Smart Consulting technical challenge. The project includes API tests with Postman/Newman and E2E tests with Cypress for the Cypress Real World App platform.
+This repository contains automated tests developed for the Natixis technical challenge. The project includes API tests with Postman/Newman and E2E tests with Cypress for the Cypress Real World App platform.
 
 ---
 
