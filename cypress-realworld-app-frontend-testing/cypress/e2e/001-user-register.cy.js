@@ -61,7 +61,8 @@ describe("Sign Up: Happy Path", () => {
   it(`${testData.signUpHappyPath.id} - ${testData.signUpHappyPath.description}`, () => {
     cy.fillSignUpFormFields(testData.signUpHappyPath);
     cy.get('[data-test="signup-submit"]').click();
-    cy.wait(5000);
+    cy.url().should("include", "/signin");
+    cy.contains("Sign In").should("be.visible");
   });
 });
 
