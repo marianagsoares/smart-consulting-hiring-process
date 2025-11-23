@@ -40,21 +40,15 @@ beforeEach(() => {
 
 describe("Sign In: Happy Path", () => {
   it(`${testData.signInHappyPath.id} - ${testData.signInHappyPath.description}`, () => {
-    cy.fillSignInFormFields(testData.signInHappyPath);
-    cy.get('[data-test="signin-submit"]').click();
-    cy.get('[data-test="user-onboarding-next"]').click();
-    cy.fillCreateBankAccountFormFields(testData.signInHappyPath);
-    cy.get('[data-test="bankaccount-submit"]').click();
-    cy.get('[data-test="user-onboarding-next"]').click();
-    cy.get('[data-test="nav-public-tab"]').should("be.visible");
+    cy.submitSignInForm(testData.signInHappyPath);
+    cy.completeOnBoardingProcess(testData.signInHappyPath);
   });
 });
 
 describe("Sign In: Exceptions Scenarios", () => {
   testData.signInExceptions.forEach((testCase) => {
     it(`${testCase.id} - ${testCase.description}`, () => {
-      cy.fillSignInFormFields(testCase);
-      cy.get('[data-test="signin-submit"]').click();
+      cy.submitSignInForm(testCase);
       cy.contains(testCase.expectedText).should("be.visible");
     });
   });

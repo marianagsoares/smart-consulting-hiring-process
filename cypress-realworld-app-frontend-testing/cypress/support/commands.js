@@ -11,11 +11,12 @@ Cypress.Commands.add(
 );
 
 Cypress.Commands.add(
-  "fillSignInFormFields", (testCase) => {
+  "submitSignInForm", (testCase) => {
     cy.url().should("include", testCase.urlPath);
     cy.contains(testCase.pageText).should("be.visible");
     cy.get("#username").type(testCase.username);
     cy.get("#password").type(testCase.password);
+    cy.get('[data-test="signin-submit"]').click();
   }
 );
 
@@ -24,5 +25,15 @@ Cypress.Commands.add(
     cy.get("#bankaccount-bankName-input").type(testCase.bankName);
     cy.get("#bankaccount-routingNumber-input").type(testCase.routingNumber);
     cy.get("#bankaccount-accountNumber-input").type(testCase.accountNumber);
+  }
+);
+
+Cypress.Commands.add(
+  "completeOnBoardingProcess", (testCase) => {
+    cy.get('[data-test="user-onboarding-next"]').click();
+    cy.fillCreateBankAccountFormFields(testCase);
+    cy.get('[data-test="bankaccount-submit"]').click();
+    cy.get('[data-test="user-onboarding-next"]').click();
+    cy.get('[data-test="nav-public-tab"]').should("be.visible");
   }
 );
