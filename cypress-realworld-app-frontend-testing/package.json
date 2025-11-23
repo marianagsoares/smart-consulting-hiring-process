@@ -3,7 +3,7 @@
     "cypress": "^15.7.0"
   },
   "scripts": {
-    "test": "cypress open",
-    "test:spec": "npx cypress run --spec 'cypress/e2e/*cy.js'"
+    "test": "npx cypress run --spec 'cypress/e2e/*cy.js'",
+    "test:ui": "cypress open"
   }
 }
